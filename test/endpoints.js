@@ -97,7 +97,6 @@ test.serial.cb('POST /route', function (t) {
   updateTargetStream.write(
     JSON.stringify({
       geoState: 'ca',
-      publisher: 'abc',
       timestamp: '2018-07-19T14:28:59.513Z'
     })
   )
